@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body onload='carregar()'>
+
+    <div class="container">
+        <h2>Study Timer</h2>
+
+        <div id="display">
+            00:00:00
+        </div>
+
+        <div class="buttons">
+            <button id="startStop" onclick="startStop()">Start</button> <button id="reset" onclick="reset()">Reset</button>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <h2>Game Timer</h2>
+
+        <div id="display">
+            00:00:00
+        </div>
+
+        <div class="buttons">
+            <button id="startStop" onclick="startStop()">Start</button> <button id="reset" onclick="reset()">Reset</button>
+        </div>
+
+    </div>
+
+    <div id="relogio">
+        <span id="horas"></span>
+        <br>
+        <picture>
+        <img src="imagens/clock_quadrado.png" width="40" alt="ícone de um relógio quadrado">
+        </picture>
+        
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>

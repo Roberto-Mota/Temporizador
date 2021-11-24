@@ -1,0 +1,51 @@
+* {
+    font-family: monospace, sans-serif;
+}
+
+.container{
+    height: auto;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6em;
+    margin-bottom: 6em;
+    padding: 20px 0px;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.356);
+    border-radius: 8px;
+    
+}
+
+.container>h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#display{
+    width: 100%;
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.buttons{
+    text-align: center;
+}
+
+#relogio {
+    width: 6em;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.356);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#relogio > picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
